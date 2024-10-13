@@ -24,10 +24,12 @@ nav {
     width: 100%;
     background-color: #2e7d32;     padding: 15px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);     z-index: 1000;
-    transition: background-color 0.3s ease-in-out; }
+    transition: background-color 0.3s ease-in-out; 
+}
 
 nav:hover {
-    background-color: #388e3c; }
+    background-color: #388e3c; 
+}
 
 nav ul {
     list-style-type: none;
@@ -46,10 +48,14 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 nav ul li a:hover {
-    color: #a5d6a7;     transform: scale(1.1); }
+    color: #a5d6a7;     
+    transform: scale(1.1); 
+}
 
 .nav-logo {
     position: absolute;
@@ -58,10 +64,13 @@ nav ul li a:hover {
     transform: translateY(-50%);
     font-size: 1.5rem;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: transform 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: transform 0.3s ease-in-out; 
+}
 
 .nav-logo:hover {
-    transform: scale(1.1); }
+    transform: scale(1.1); 
+}
 
 
 header {
@@ -72,7 +81,8 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(to right, #e8f5e9, #c8e6c9); }
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9); 
+}
 
 .header-container {
     display: flex;
@@ -92,13 +102,17 @@ header {
 .header-text h1 {
     margin: 0;
     font-size: 3.5rem;
-    color: #2e7d32;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: transform 0.3s ease-in-out; }
+    color: #2e7d32;     
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: transform 0.3s ease-in-out; 
+}
 
 .header-text p {
     font-size: 1.6rem;
     color: #388e3c;
     margin-top: 10px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+}
 
 .cta-button {
     display: inline-block;
@@ -109,11 +123,14 @@ header {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);     transition: background 0.3s, transform 0.3s; }
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);     
+    transition: background 0.3s, transform 0.3s; 
+}
 
 .cta-button:hover {
     background: #2c6c2f;
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 .header-image {
     flex: 1;
@@ -125,10 +142,14 @@ header {
 .header-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 15px;     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     transition: transform 0.3s ease-in-out; }
+    border-radius: 15px;     
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     
+    transition: transform 0.3s ease-in-out; 
+}
 
 .header-image img:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 
 
@@ -153,10 +174,14 @@ header {
 .about-image img {
     max-width: 80%;
     height: auto;
-    border-radius: 15px;     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     transition: transform 0.3s ease-in-out; }
+    border-radius: 15px;     
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     
+    transition: transform 0.3s ease-in-out; 
+}
 
 .about-image img:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 .about-text {
     flex: 1;
@@ -166,19 +191,26 @@ header {
 .about-text h2 {
     margin-top: 0;
     font-size: 2.5rem; 
-    color: #2e7d32;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: transform 0.3s ease-in-out; }
+    color: #2e7d32;     
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: transform 0.3s ease-in-out; 
+}
 
 .about-text h2:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 .about-text p {
     font-size: 1.2rem;
     color: #4caf50;
     line-height: 1.6;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);     transition: color 0.3s ease-in-out; }
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);     
+    transition: color 0.3s ease-in-out; 
+}
 
 .about-text p:hover {
-    color: #388e3c; }
+    color: #388e3c; 
+}
 
 
 .menu {
@@ -194,10 +226,13 @@ header {
     font-size: 2rem;
     color: #2e7d32; 
     margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: color 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: color 0.3s ease-in-out; 
+}
 
 .menu h2:hover {
-    color: #388e3c;     transform: scale(1.05); }
+    color: #388e3c;     transform: scale(1.05); 
+}
 
 .menu-items {
     display: grid;
@@ -217,7 +252,9 @@ header {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
 
 .menu-item:hover {
-    transform: scale(1.05);     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+    transform: scale(1.05);     
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
 
 .menu-item img {
     width: 150px; 
@@ -226,19 +263,23 @@ header {
     object-fit: cover; 
     display: block;
     margin: 0 auto;
-    transition: transform 0.3s ease-in-out; }
+    transition: transform 0.3s ease-in-out; 
+}
 
 .menu-item img:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 .menu-item h3 {
     margin: 10px 0 5px;
     font-size: 1.5rem;
     color: #388e3c;
-    transition: color 0.3s ease-in-out; }
+    transition: color 0.3s ease-in-out; 
+}
 
 .menu-item h3:hover {
-    color: #2c6c2f; }
+    color: #2c6c2f; 
+}
 
 .menu-item p {
     font-size: 1.2rem;
@@ -261,10 +302,14 @@ header {
     color: #2e7d32;
     padding: 30px; 
     margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 .why-choose-us h2:hover {
-    color: #388e3c;     transform: scale(1.05); }
+    color: #388e3c;     
+    transform: scale(1.05); 
+}
 
 .reasons {
     display: flex;
@@ -280,12 +325,16 @@ header {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
+    width: 100%;
     max-width: 300px; 
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
 
 .reason:hover {
-    transform: scale(1.05);     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+    transform: scale(1.05);     
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
 
 .reason img {
     width: 100%;
@@ -293,7 +342,8 @@ header {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
-    transition: transform 0.3s ease-in-out; }
+    transition: transform 0.3s ease-in-out; 
+}
 
 .reason img:hover {
     transform: scale(1.05); 
@@ -336,10 +386,14 @@ header {
     font-size: 2rem;
     color: #2e7d32;
     margin-bottom: 1.2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 .reservation h2:hover {
-    color: #388e3c;     transform: scale(1.05); }
+    color: #388e3c;     
+    transform: scale(1.05); 
+}
 
 .reservation form {
     max-width: 600px;
@@ -347,20 +401,25 @@ header {
     background: #ffffff;
     padding: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     transition: box-shadow 0.3s ease-in-out; }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
+    transition: box-shadow 0.3s ease-in-out; 
+}
 
 .reservation form:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
 
 .reservation label {
     display: block;
     font-size: 1rem;
     margin: 10px 0 5px;
     color: #388e3c;
-    transition: color 0.3s ease-in-out; }
+    transition: color 0.3s ease-in-out; 
+}
 
 .reservation label:hover {
-    color: #2c6c2f; }
+    color: #2c6c2f; 
+}
 
 .reservation input {
     width: 100%;
@@ -369,10 +428,12 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: border-color 0.3s ease-in-out; }
+    transition: border-color 0.3s ease-in-out; 
+}
 
 .reservation input:focus {
-    border-color: #388e3c; }
+    border-color: #388e3c; 
+}
 
 .reservation button {
     padding: 10px 20px;
@@ -382,47 +443,62 @@ header {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 .reservation button:hover {
     background: #2c6c2f;
-    transform: scale(1.05); }
+    transform: scale(1.05); 
+}
 
 
 .contact {
     padding: 2rem 20px;
-    background: #eaf4e0;     text-align: center;
+    background: #eaf4e0;     
+    text-align: center;
     width: 100vw; 
     height: 100vh;
     box-sizing: border-box;
-    overflow: hidden; }
+    overflow: hidden; 
+}
 
 .contact h2 {
     font-size: 2rem;
     padding-top: 30px;
     color: #2e7d32;     margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 .contact h2:hover {
-    color: #388e3c;     transform: scale(1.05); }
+    color: #388e3c;     
+    transform: scale(1.05); 
+}
 
 .contact p {
     font-size: 1.2rem;
-    color: #4caf50;     margin-bottom: 1.5rem;
-    transition: color 0.3s ease-in-out; }
+    color: #4caf50;     
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease-in-out; 
+}
 
 .contact p:hover {
-    color: #388e3c; }
+    color: #388e3c; 
+}
 
 .contact form {
     max-width: 600px;
     margin: 0 auto;
-    background: #f1f8e9;     padding: 20px;
+    background: #f1f8e9;     
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     transition: box-shadow 0.3s ease-in-out; }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
+    transition: box-shadow 0.3s ease-in-out; 
+}
 
 .contact form:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
 
 .contact input, 
 .contact textarea {
@@ -432,39 +508,49 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: border-color 0.3s ease-in-out; }
+    transition: border-color 0.3s ease-in-out; 
+}
 
 .contact input:focus, 
 .contact textarea:focus {
-    border-color: #388e3c; }
+    border-color: #388e3c; 
+}
 
 .contact button {
     padding: 10px 20px;
-    background: #388e3c;     color: white;
+    background: #388e3c;     
+    color: white;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; }
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
 .contact button:hover {
-    background: #2c6c2f;     transform: scale(1.05); }
+    background: #2c6c2f;     
+    transform: scale(1.05); 
+}
 
 footer {
     padding: 1rem 20px;
-    background: #4CAF50;     color: white;
+    background: #4CAF50;     
+    color: white;
     text-align: center;
     width: 100vw;
     box-sizing: border-box;
-    overflow: hidden; }
+    overflow: hidden; 
+}
 
 footer p {
     margin: 0;
     font-size: 1rem;
-    transition: color 0.3s ease-in-out; }
+    transition: color 0.3s ease-in-out; 
+}
 
 footer p:hover {
-    color: #ffffff; }
+    color: #ffffff; 
+}
 
 .social-icons {
     margin-top: 10px;
@@ -475,8 +561,10 @@ footer p:hover {
     text-decoration: none;
     margin: 0 10px;
     font-size: 1.2rem;
-    transition: color 0.3s ease-in-out; }
+    transition: color 0.3s ease-in-out; 
+}
 
 .social-icons a:hover {
-    color: #eaf4e0;     text-decoration: underline;
+    color: #eaf4e0;     
+    text-decoration: underline;
 }
