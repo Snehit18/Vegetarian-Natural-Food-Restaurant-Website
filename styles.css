@@ -9,12 +9,12 @@ html, body {
 }
 
 body {
-    font-family: "Satisfy", cursive;
+    font-family: cursive;
     background-color: #f5f5f5; 
 }
 
 button {
-    font-family: "Satisfy", cursive;
+    font-family: cursive;
 }
 
 
@@ -569,6 +569,11 @@ footer p:hover {
     text-decoration: underline;
 }
 
-
+input::placeholder,
+textarea::placeholder {
+    font-family: cursive;
+    font-size: 1em;
+    color: #6b6b6b; 
+}
 
 
