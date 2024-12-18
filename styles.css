@@ -6,24 +6,22 @@
 
 html, body {
     overflow-x: hidden; 
-}
-
-body {
     font-family: cursive;
     background-color: #f5f5f5; 
 }
 
 button {
-    font-family: cursive;
+    font-family: inherit; /* Use inherited font-family */
 }
-
 
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #2e7d32;     padding: 15px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);     z-index: 1000;
+    background-color: #2e7d32;     
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);     
+    z-index: 1000;
     transition: background-color 0.3s ease-in-out; 
 }
 
@@ -32,9 +30,7 @@ nav:hover {
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +45,12 @@ nav ul li a {
     font-size: 1.2rem;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: color 0.3s, transform 0.3s; 
 }
 
 nav ul li a:hover {
     color: #a5d6a7;     
-    transform: scale(1.1); 
-}
+    transform: scale(1.1); }
 
 .nav-logo {
     position: absolute;
@@ -65,13 +60,12 @@ nav ul li a:hover {
     font-size: 1.5rem;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .nav-logo:hover {
     transform: scale(1.1); 
 }
-
 
 header {
     position: relative;
@@ -95,16 +89,14 @@ header {
 
 .header-text {
     flex: 1;
-    text-align: left;
     padding: 20px;
 }
 
 .header-text h1 {
-    margin: 0;
     font-size: 3.5rem;
     color: #2e7d32;     
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .header-text p {
@@ -134,9 +126,7 @@ header {
 
 .header-image {
     flex: 1;
-    text-align: right;
     padding: 20px;
-    position: relative;
 }
 
 .header-image img {
@@ -144,14 +134,12 @@ header {
     height: auto;
     border-radius: 15px;     
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .header-image img:hover {
     transform: scale(1.05); 
 }
-
-
 
 .about {
     width: 100%;
@@ -159,13 +147,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f1f8e9;     padding: 0;
-    box-sizing: border-box;
+    background: #f1f8e9; 
 }
 
 .about-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 90%;
     max-width: 1200px;
@@ -176,7 +162,7 @@ header {
     height: auto;
     border-radius: 15px;     
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);     
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .about-image img:hover {
@@ -189,11 +175,10 @@ header {
 }
 
 .about-text h2 {
-    margin-top: 0;
     font-size: 2.5rem; 
     color: #2e7d32;     
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .about-text h2:hover {
@@ -205,33 +190,30 @@ header {
     color: #4caf50;
     line-height: 1.6;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);     
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .about-text p:hover {
     color: #388e3c; 
 }
 
-
 .menu {
     padding: 2rem 20px;
     background: #fafafa; 
-    width: 100vw; 
-    height: auto; 
-    box-sizing: border-box;
 }
 
 .menu h2 {
     text-align: center;
     font-size: 2rem;
     color: #2e7d32; 
-    margin-bottom: 1.5rem;
+    margin-bottom: 1 .5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s, transform 0.3s; 
 }
 
 .menu h2:hover {
-    color: #388e3c;     transform: scale(1.05); 
+    color: #388e3c;     
+    transform: scale(1.05); 
 }
 
 .menu-items {
@@ -247,9 +229,11 @@ header {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
+    height: 100%;
     color: #333;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
 
 .menu-item:hover {
     transform: scale(1.05);     
@@ -263,7 +247,7 @@ header {
     object-fit: cover; 
     display: block;
     margin: 0 auto;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .menu-item img:hover {
@@ -274,7 +258,7 @@ header {
     margin: 10px 0 5px;
     font-size: 1.5rem;
     color: #388e3c;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .menu-item h3:hover {
@@ -286,15 +270,10 @@ header {
     color: #4caf50;
 }
 
-
-
 .why-choose-us {
     padding: 2rem 20px;
     background: #e8f5e9; 
     text-align: center;
-    width: 100vw; 
-    height: 100vh; 
-    box-sizing: border-box;
 }
 
 .why-choose-us h2 {
@@ -303,7 +282,7 @@ header {
     padding: 30px; 
     margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: color 0.3s, transform 0.3s; 
 }
 
 .why-choose-us h2:hover {
@@ -328,7 +307,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
     width: 100%;
     max-width: 300px; 
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .reason:hover {
@@ -342,7 +321,7 @@ header {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s; 
 }
 
 .reason img:hover {
@@ -353,7 +332,7 @@ header {
     margin: 10px 0 5px;
     font-size: 1.5rem;
     color: #388e3c;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .reason h3:hover {
@@ -364,22 +343,17 @@ header {
     font-size: 1.2rem;
     color: #4caf50;
     line-height: 1.6;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .reason p:hover {
     color: #388e3c; 
 }
 
-
 .reservation {
     padding: 1rem 20px;
     background: #d0f0c0; 
-    width: 100vw; 
-    height: 100vh;
-    box-sizing: border-box;
     text-align: center;
-    overflow: hidden; 
 }
 
 .reservation h2 {
@@ -387,7 +361,7 @@ header {
     color: #2e7d32;
     margin-bottom: 1.2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: color 0.3s, transform 0.3s; 
 }
 
 .reservation h2:hover {
@@ -402,7 +376,7 @@ header {
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
-    transition: box-shadow 0.3s ease-in-out; 
+    transition: box-shadow 0.3s; 
 }
 
 .reservation form:hover {
@@ -414,7 +388,7 @@ header {
     font-size: 1rem;
     margin: 10px 0 5px;
     color: #388e3c;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .reservation label:hover {
@@ -428,7 +402,7 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: border-color 0.3s ease-in-out; 
+    transition: border-color 0.3s; 
 }
 
 .reservation input:focus {
@@ -443,7 +417,7 @@ header {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: background 0.3s, transform 0.3s; 
 }
 
 .reservation button:hover {
@@ -451,23 +425,19 @@ header {
     transform: scale(1.05); 
 }
 
-
 .contact {
     padding: 2rem 20px;
     background: #eaf4e0;     
     text-align: center;
-    width: 100vw; 
-    height: 100vh;
-    box-sizing: border-box;
-    overflow: hidden; 
 }
 
 .contact h2 {
     font-size: 2rem;
     padding-top: 30px;
-    color: #2e7d32;     margin-bottom: 1.5rem;
+    color: #2e7d32;     
+    margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);     
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: color 0.3s, transform 0.3s; 
 }
 
 .contact h2:hover {
@@ -479,7 +449,7 @@ header {
     font-size: 1.2rem;
     color: #4caf50;     
     margin-bottom: 1.5rem;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .contact p:hover {
@@ -493,7 +463,7 @@ header {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);     
-    transition: box-shadow 0.3s ease-in-out; 
+    transition: box-shadow 0.3s; 
 }
 
 .contact form:hover {
@@ -508,7 +478,7 @@ header {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: border-color 0.3s ease-in-out; 
+    transition: border-color 0.3s; 
 }
 
 .contact input:focus, 
@@ -524,7 +494,7 @@ header {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transition: background 0.3s, transform 0.3s; 
 }
 
 .contact button:hover {
@@ -539,13 +509,12 @@ footer {
     text-align: center;
     width: 100vw;
     box-sizing: border-box;
-    overflow: hidden; 
 }
 
 footer p {
     margin: 0;
     font-size: 1rem;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 footer p:hover {
@@ -561,7 +530,7 @@ footer p:hover {
     text-decoration: none;
     margin: 0 10px;
     font-size: 1.2rem;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s; 
 }
 
 .social-icons a:hover {
