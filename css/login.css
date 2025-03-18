@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: #3A5A40;
+    color: #DAD7CD;
+    font-family: "Merienda", cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #344E41;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Form Styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #DAD7CD;
+}
+
+.input-group input {
+    font-family: "Merienda", cursive;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #A3B18A;
+    font-size: 16px;
+    background-color: #A3B18A;
+    color: #344E41;
+}
+
+/* Login Button */
+button {
+    font-family: "Merienda", cursive;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #588157;
+    color: #DAD7CD;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3A5A40; 
+}
+
+/* Sign-up Link */
+.sign-up {
+    margin-top: 15px;
+}
+
+.sign-up a {
+    color: #A3B18A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+/* ================= GENERAL STYLES ================= */
+body {
+    background-color: #DAD7CD; 
+    color: #344E41; 
+    font-family: "Merienda", cursive; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= MENU CONTAINER ================= */
+.menu-container {
+    padding: 20px; 
+}
+
+/* ================= MENU TITLE ================= */
+.menu-title {
+    font-size: 2.5em;
+    margin-bottom: 30px; 
+    color: #3A5A40; 
+}
+
+/* ================= MENU GRID ================= */
+.menu-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* ================= MENU COLUMNS ================= */
+.menu-column {
+    width: 45%;
+    text-align: left;
+}
+
+/* ================= MENU HEADINGS ================= */
+.menu-column h2 {
+    font-size: 2em; 
+    color: #3A5A40; 
+    margin-top: 40px; 
+    text-align: center;
+}
+
+/* Divider Styling */
+.menu-divider {
+    width: 50%;
+    margin: 8px auto 20px auto; 
+    border: 3px solid #588157; 
+}
+
+/* ================= MENU ITEMS ================= */
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Increased gap */
+}
+
+/* Menu Item Box */
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: #A3B18A; 
+    padding: 15px; 
+    border-radius: 12px; 
+}
+
+/* Menu Item Image */
+.menu-item img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 12px; 
+    margin-right: 20px; 
+}
+
+/* Menu Item Text */
+.menu-item p {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #344E41; 
+}
