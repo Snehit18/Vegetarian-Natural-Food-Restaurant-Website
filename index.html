@@ -8,22 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     <header class="navbar">
-        <nav class="nav-container">
-            <ul class="nav-items">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#specials">Specials</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
+                <ul class="nav-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="search-container">
             <input type="text" placeholder="Search">
             <button>Search</button>
@@ -32,9 +38,8 @@
             <a href="login.html">Log In</a>
         </div>
     </header>
-    
 
-    <!-- Hero Section -->
+
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>Vegetarian | Natural Food</h1>
@@ -53,7 +58,6 @@
     </section>
 
 
-    <!-- Why Choose Us Section -->
     <section class="why-choose-us" id="about">
         <h2 class="why-title">Why Choose Us?</h2>
         <div class="why-choose-container">
@@ -80,7 +84,6 @@
     </section>
 
 
-    <!-- Seasonal Highlights Section -->
     <section class="seasonal-highlights" id="specials">
         <h2 class="season-title">Discover What’s Fresh In This Season</h2>
         <div class="season-container">
@@ -131,11 +134,10 @@
     </section>
 
 
-    <!-- Popular Recipes Section -->
     <section class="popular-recipes" id="menu">
         <h2>Popular Recipes</h2>
         <div class="recipe-grid">
-            
+
             <article class="recipe-item">
                 <figure class="circle-image">
                     <img src="images/Paneer Butter Masala.jpeg" alt="Paneer Butter Masala" class="recipe-image">
@@ -143,7 +145,7 @@
                 <h3 class="recipe-name">Paneer Butter Masala</h3>
                 <p class="recipe-description">A rich and creamy dish with paneer cubes in a buttery tomato-based gravy.</p>
             </article>
-    
+
             <article class="recipe-item">
                 <figure class="circle-image">
                     <img src="images/Malai Kofta.jpeg" alt="Malai Kofta" class="recipe-image">
@@ -151,7 +153,7 @@
                 <h3 class="recipe-name">Malai Kofta</h3>
                 <p class="recipe-description">Soft paneer and potato balls served in a smooth, spiced, and creamy curry.</p>
             </article>
-    
+
             <article class="recipe-item">
                 <figure class="circle-image">
                     <img src="images/Veg Biryani.jpeg" alt="Veg Biryani" class="recipe-image">
@@ -159,7 +161,7 @@
                 <h3 class="recipe-name">Veg Biryani</h3>
                 <p class="recipe-description">A fragrant rice dish loaded with vegetables and aromatic spices.</p>
             </article>
-    
+
             <article class="recipe-item">
                 <figure class="circle-image">
                     <img src="images/Chana Masala.jpeg" alt="Chana Masala" class="recipe-image">
@@ -167,7 +169,7 @@
                 <h3 class="recipe-name">Chana Masala</h3>
                 <p class="recipe-description">A flavorful chickpea curry cooked with onions, tomatoes, and Indian spices.</p>
             </article>
-    
+
         </div>
 
         <div class="menu-button-container">
@@ -175,8 +177,7 @@
         </div>
     </section>
 
-    
-    <!-- Testimonials -->
+
     <section class="testimonials" id="reviews">
         <h2 class="testimonials-title">Successful Stories</h2>
         <div class="testimonial-container">
@@ -234,16 +235,15 @@
                     </figcaption>
                 </figure>
             </article>
-    
+
         </div>
     </section>
 
-    
-    <!-- Contact Us Section -->
+
     <section class="contact-us" id="contact">
         <h2 class="contact-title">Get in Touch</h2>
         <p class="contact-text">Have a question or want to make a reservation? We’d love to hear from you!</p>
-        
+
         <div class="contact-container">
             <div class="contact-info">
                 <p><strong>📍 Address:</strong> 123 Green Street, Mumbai, India</p>
@@ -270,5 +270,15 @@
         </div>
         <p>2024 Vegetarian | Natural Food</p>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navItems = document.querySelector('.nav-items');
+
+        hamburger.addEventListener('click', () => {
+            navItems.classList.toggle('active');
+            hamburger.classList.toggle('active'); // Optional: Add active class to hamburger for styling changes
+        });
+    </script>
 </body>
 </html>
