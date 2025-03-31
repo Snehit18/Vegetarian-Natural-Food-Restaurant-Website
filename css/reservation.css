@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     background-color: #3A5A40;
     color: #DAD7CD;
@@ -12,7 +11,6 @@ body {
     overflow-y: auto;
 }
 
-/* Reservation Container */
 .reservation-container {
     width: 100%;
     max-width: 400px;
@@ -24,14 +22,12 @@ body {
     margin: 0;
 }
 
-/* Form Styling */
 .reservation-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Input Group */
 .input-group {
     display: flex;
     flex-direction: column;
@@ -54,7 +50,6 @@ body {
     color: #344E41;
 }
 
-/* Submit Button */
 button {
     font-family: "Merienda", cursive;
     padding: 12px;

@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     background-color: #3A5A40;
     color: #DAD7CD;
@@ -10,7 +9,6 @@ body {
     margin: 0;
 }
 
-/* Sign-Up Container */
 .signup-container {
     width: 100%;
     max-width: 400px;
@@ -21,14 +19,12 @@ body {
     text-align: center;
 }
 
-/* Form Styling */
 .signup-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Input Group */
 .input-group {
     display: flex;
     flex-direction: column;
@@ -51,7 +47,6 @@ body {
     color: #344E41;
 }
 
-/* Sign-Up Button */
 button {
     font-family: "Merienda", cursive;
     padding: 12px;
@@ -68,7 +63,6 @@ button:hover {
     background-color: #3A5A40; 
 }
 
-/* Log in Link */
 .login-link {
     margin-top: 15px;
 }
